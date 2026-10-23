@@ -1,0 +1,4 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex">
+<title>Random game | Classroom 6X</title><meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body><script>fetch('../assets/games.json').then(r=>r.json()).then(d=>{var g=d[Math.floor(Math.random()*d.length)];location.replace('../game/'+g.s+'/')}).catch(()=>location.replace('../'))</script>
+<noscript><a href="../games/">Browse all games</a></noscript></body></html>

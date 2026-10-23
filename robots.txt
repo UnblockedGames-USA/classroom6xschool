@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /search/
+Disallow: /random/
+
+Sitemap: https://unblockedgames-usa.github.io/classroom6xschool/sitemap.xml
